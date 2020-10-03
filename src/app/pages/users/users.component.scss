@@ -1,0 +1,42 @@
+.createUser{
+    cursor:pointer;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .table-responsive-query{
+        overflow: auto;
+        width: 100%;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .table-responsive-query{
+        overflow: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .table-responsive-query{
+        overflow: auto;
+        width: 100%;
+    }
+}
+
+/*@media (max-width: 1600px) {
+    .table-responsive-query{
+        overflow: auto;
+        width: 100%;
+    }
+}*/
+
+.pictureCell{
+    display: flex;
+    align-items: center;
+}
+
+.bg-gradient-danger {
+    background: linear-gradient(87deg, #dc8b27 0, #f56036 100%) !important;
+}

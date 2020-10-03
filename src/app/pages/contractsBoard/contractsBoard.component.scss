@@ -1,0 +1,35 @@
+.bg-gradient-danger {
+    background: linear-gradient(87deg, #27dc88 0, #1d1614 100%) !important;
+}
+
+.contractCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.btn-primary{
+    background: #27ca7d;
+    border-color: black;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#202b21
+}
+
+.card-content{
+    border-color: white;
+    /* background: linear-gradient(87deg, #27dc88 0, #1d16143d 100%); */
+    background: black;
+    color:white;
+}
+
+.card-content h4{
+    color:white;
+}
